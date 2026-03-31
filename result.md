@@ -123,7 +123,7 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 </tr>
 
 <tr>
-<td align="left">OpenVLA-OFT</td>
+<td align="left">OpenVLA-OFT (RSS'25)</td>
 <td align="center">7B</td>
 <td align="center">96.2</td>
 <td align="center"><i>98.3</i></td>
@@ -155,7 +155,7 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 <tr><td colspan="7" height="1"></td></tr>
 
 <tr>
-<td align="left">X-VLA</td>
+<td align="left">X-VLA (ICLR'26)</td>
 <td align="center">0.9B</td>
 <td align="center">98.1</td>
 <td align="center"><i>98.6</i></td>
@@ -202,7 +202,7 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 </tr>
 
 <tr>
-<td align="left">X-VLA</td>
+<td align="left">X-VLA (ICLR'26)</td>
 <td align="center">0.9B</td>
 <td align="center">97.1</td>
 <td align="center">92.6</td>
