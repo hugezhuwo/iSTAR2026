@@ -6,104 +6,107 @@
   
 --- 
 
+<div align="center">
 
-<div>
+<b>Table R1. Success rate (%) across VIMA-Bench task levels (L1–L4)</b><br>
+Best results are <b>bold</b>, second-best are <i>italic</i>.
 
-<b>Table R1. Success rate (%) across VIMA-Bench task levels (L1–L4)</b>
-Best results are <b><span style="color:#d62728;">bold (red)</span></b>, second-best are <i><span style="color:#1f77b4;">italic (blue)</span></i>.
 
 <table>
 <tr>
-<th>Method</th>
-<th>Sup.</th>
-<th>Gen.</th>
-<th>Align</th>
-<th>Order</th>
-<th>L1</th>
-<th>L2</th>
-<th>L3</th>
-<th>L4</th>
+<th align="left">Method</th>
+<th align="center">Subprompt Supervision</th>
+<th align="center">Subprompt Generation</th>
+<th align="center">Concept Alignment</th>
+<th align="center">Order Entropy</th>
+<th align="center">L1</th>
+<th align="center">L2</th>
+<th align="center">L3</th>
+<th align="center">L4</th>
 </tr>
 
 <tr>
-<td>VIMA (Small)</td>
-<td>None</td><td>--</td><td>--</td><td>--</td>
-<td>72.4</td><td>73.8</td><td>71.1</td><td>35.0</td>
+<td align="left">VIMA (Small)</td>
+<td align="center">None</td><td align="center">--</td><td align="center">--</td><td align="center">--</td>
+<td align="center">72.4</td><td align="center">73.8</td><td align="center">71.1</td><td align="center">35.0</td>
 </tr>
 
 <tr>
-<td>VIMA (Large)</td>
-<td>None</td><td>--</td><td>--</td><td>--</td>
-<td>73.9</td><td>74.5</td><td>72.0</td><td><i><span style="color:#1f77b4;">59.0</span></i></td>
+<td align="left">VIMA (Large)</td>
+<td align="center">None</td><td align="center">--</td><td align="center">--</td><td align="center">--</td>
+<td align="center">73.9</td><td align="center">74.5</td><td align="center">72.0</td><td align="center"><i>59.0</i></td>
 </tr>
 
 <tr><td colspan="9" height="4"></td></tr>
 
 <tr>
-<td>Stacked VIMA</td>
-<td>None</td><td>×</td><td>×</td><td>×</td>
-<td>72.4</td><td>73.6</td><td>72.4</td><td>34.0</td>
+<td align="left">Stacked VIMA</td>
+<td align="center">None</td><td align="center">×</td><td align="center">×</td><td align="center">×</td>
+<td align="center">72.4</td><td align="center">73.6</td><td align="center">72.4</td><td align="center">34.0</td>
 </tr>
 
 <tr>
-<td>iSTAR (w/o Sup. & Align.)</td>
-<td>None</td><td>×</td><td>×</td><td>✓</td>
-<td>74.1</td><td>75.0</td><td>73.6</td><td>36.3</td>
+<td align="left">iSTAR (w/o Sup. & Align.)</td>
+<td align="center">None</td><td align="center">×</td><td align="center">×</td><td align="center">✓</td>
+<td align="center">74.1</td><td align="center">75.0</td><td align="center">73.6</td><td align="center">36.3</td>
 </tr>
 
 <tr>
-<td>iSTAR (w/o Align. & Order)</td>
-<td>Partial</td><td>✓</td><td>×</td><td>×</td>
-<td>74.8</td><td>76.0</td><td>74.9</td><td>37.7</td>
+<td align="left">iSTAR (w/o Align. & Order)</td>
+<td align="center">Partial</td><td align="center">✓</td><td align="center">×</td><td align="center">×</td>
+<td align="center">74.8</td><td align="center">76.0</td><td align="center">74.9</td><td align="center">37.7</td>
 </tr>
 
 <tr>
-<td>iSTAR (w/o Align.)</td>
-<td>Partial</td><td>✓</td><td>×</td><td>✓</td>
-<td>77.8</td><td>77.5</td><td>77.0</td><td>40.0</td>
+<td align="left">iSTAR (w/o Align.)</td>
+<td align="center">Partial</td><td align="center">✓</td><td align="center">×</td><td align="center">✓</td>
+<td align="center">77.8</td><td align="center">77.5</td><td align="center">77.0</td><td align="center">40.0</td>
 </tr>
 
 <tr>
-<td>iSTAR (w/o Sup.)</td>
-<td>Partial</td><td>×</td><td>✓</td><td>✓</td>
-<td>76.7</td><td>77.5</td><td>76.4</td><td>41.3</td>
+<td align="left">iSTAR (w/o Sup.)</td>
+<td align="center">Partial</td><td align="center">×</td><td align="center">✓</td><td align="center">✓</td>
+<td align="center">76.7</td><td align="center">77.5</td><td align="center">76.4</td><td align="center">41.3</td>
 </tr>
 
 <tr>
-<td>iSTAR (w/o Order)</td>
-<td>Full</td><td>✓</td><td>✓</td><td>×</td>
-<td>76.4</td><td>77.6</td><td>76.3</td><td>42.7</td>
+<td align="left">iSTAR (w/o Order)</td>
+<td align="center">Full</td><td align="center">✓</td><td align="center">✓</td><td align="center">×</td>
+<td align="center">76.4</td><td align="center">77.6</td><td align="center">76.3</td><td align="center">42.7</td>
 </tr>
 
 <tr>
-<td>iSTAR (Ours)</td>
-<td>Full</td><td>✓</td><td>✓</td><td>✓</td>
-<td><i><span style="color:#1f77b4;">78.6</span></i></td>
-<td><i><span style="color:#1f77b4;">79.2</span></i></td>
-<td><i><span style="color:#1f77b4;">78.3</span></i></td>
-<td>44.3</td>
+<td align="left">iSTAR (Ours)</td>
+<td align="center">Full</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td>
+<td align="center"><i>78.6</i></td>
+<td align="center"><i>79.2</i></td>
+<td align="center"><i>78.3</i></td>
+<td align="center">44.3</td>
 </tr>
 
 <tr><td colspan="9" height="6"></td></tr>
 
 <tr>
-<td><b>iSTAR (Large Reasoner, Ours)</b></td>
-<td>Full</td><td>✓</td><td>✓</td><td>✓</td>
-<td><b><span style="color:#d62728;">78.8</span></b></td>
-<td><b><span style="color:#d62728;">80.0</span></b></td>
-<td><b><span style="color:#d62728;">81.1</span></b></td>
-<td><b><span style="color:#d62728;">67.7</span></b></td>
+<td align="left"><b>iSTAR (Large Reasoner, Ours)</b></td>
+<td align="center">Full</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td>
+<td align="center"><b>78.8</b></td>
+<td align="center"><b>80.0</b></td>
+<td align="center"><b>81.1</b></td>
+<td align="center"><b>67.7</b></td>
 </tr>
 
 </table>
 </div>
 
+
+
+
 --- 
 
-<div>
+<div align="center">
 
-<b>Table R2. Success rate (SR, %) on LIBERO and CALVIN.</b>
-Best results are <b><span style="color:#d62728;">bold (red)</span></b>, second-best are <i><span style="color:#1f77b4;">italic (blue)</span></i>.
+<b>Table R2. Success rate (SR, %) on LIBERO and CALVIN.</b><br>
+Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 <i>"w/o sup." denotes training without subtask-level supervision.</i>
 
 <b>LIBERO</b>
@@ -111,113 +114,113 @@ Best results are <b><span style="color:#d62728;">bold (red)</span></b>, second-b
 <table>
 <tr>
 <th align="left">Method</th>
-<th align="left">Params</th>
-<th align="left">Spatial</th>
-<th align="left">Object</th>
-<th align="left">Goal</th>
-<th align="left">Long</th>
-<th align="left">Avg</th>
+<th align="center">Params</th>
+<th align="center">Spatial</th>
+<th align="center">Object</th>
+<th align="center">Goal</th>
+<th align="center">Long</th>
+<th align="center">Avg</th>
 </tr>
 
 <tr>
-<td>OpenVLA-OFT</td>
-<td>7B</td>
-<td>96.2</td>
-<td><i><span style="color:#1f77b4;">98.3</span></i></td>
-<td><b><span style="color:#d62728;">96.2</span></b></td>
-<td>90.7</td>
-<td>95.3</td>
+<td align="left">OpenVLA-OFT</td>
+<td align="center">7B</td>
+<td align="center">96.2</td>
+<td align="center"><i>98.3</i></td>
+<td align="center"><b>96.2</b></td>
+<td align="center">90.7</td>
+<td align="center">95.3</td>
 </tr>
 
 <tr>
-<td>iSTAR (OFT, w/o sup.)</td>
-<td>8B</td>
-<td><i><span style="color:#1f77b4;">96.6</span></i></td>
-<td>98.2</td>
-<td><b><span style="color:#d62728;">96.2</span></b></td>
-<td><i><span style="color:#1f77b4;">91.8</span></i></td>
-<td><i><span style="color:#1f77b4;">95.7</span></i></td>
+<td align="left">iSTAR (OFT, w/o sup.)</td>
+<td align="center">8B</td>
+<td align="center"><i>96.6</i></td>
+<td align="center">98.2</td>
+<td align="center"><b>96.2</b></td>
+<td align="center"><i>91.8</i></td>
+<td align="center"><i>95.7</i></td>
 </tr>
 
 <tr>
-<td>iSTAR (OFT, w/ sup.)</td>
-<td>8B</td>
-<td><b><span style="color:#d62728;">96.8</span></b></td>
-<td><b><span style="color:#d62728;">98.4</span></b></td>
-<td><i><span style="color:#1f77b4;">96.0</span></i></td>
-<td><b><span style="color:#d62728;">92.2</span></b></td>
-<td><b><span style="color:#d62728;">95.9</span></b></td>
+<td align="left">iSTAR (OFT, w/ sup.)</td>
+<td align="center">8B</td>
+<td align="center"><b>96.8</b></td>
+<td align="center"><b>98.4</b></td>
+<td align="center"><i>96.0</i></td>
+<td align="center"><b>92.2</b></td>
+<td align="center"><b>95.9</b></td>
 </tr>
 
 <tr><td colspan="7" height="1"></td></tr>
 
 <tr>
-<td>X-VLA</td>
-<td>0.9B</td>
-<td>98.1</td>
-<td><i><span style="color:#1f77b4;">98.6</span></i></td>
-<td>97.8</td>
-<td>97.6</td>
-<td>98.1</td>
+<td align="left">X-VLA</td>
+<td align="center">0.9B</td>
+<td align="center">98.1</td>
+<td align="center"><i>98.6</i></td>
+<td align="center">97.8</td>
+<td align="center">97.6</td>
+<td align="center">98.1</td>
 </tr>
 
 <tr>
-<td>iSTAR (X-VLA, w/o sup.)</td>
-<td>1B</td>
-<td><i><span style="color:#1f77b4;">98.2</span></i></td>
-<td><i><span style="color:#1f77b4;">98.6</span></i></td>
-<td><b><span style="color:#d62728;">98.2</span></b></td>
-<td><i><span style="color:#1f77b4;">98.0</span></i></td>
-<td><i><span style="color:#1f77b4;">98.3</span></i></td>
+<td align="left">iSTAR (X-VLA, w/o sup.)</td>
+<td align="center">1B</td>
+<td align="center"><i>98.2</i></td>
+<td align="center"><i>98.6</i></td>
+<td align="center"><b>98.2</b></td>
+<td align="center"><i>98.0</i></td>
+<td align="center"><i>98.3</i></td>
 </tr>
 
 <tr>
-<td>iSTAR (X-VLA, w/ sup.)</td>
-<td>1B</td>
-<td><b><span style="color:#d62728;">98.4</span></b></td>
-<td><b><span style="color:#d62728;">99.0</span></b></td>
-<td><i><span style="color:#1f77b4;">98.0</span></i></td>
-<td><b><span style="color:#d62728;">98.6</span></b></td>
-<td><b><span style="color:#d62728;">98.5</span></b></td>
+<td align="left">iSTAR (X-VLA, w/ sup.)</td>
+<td align="center">1B</td>
+<td align="center"><b>98.4</b></td>
+<td align="center"><b>99.0</b></td>
+<td align="center"><i>98.0</i></td>
+<td align="center"><b>98.6</b></td>
+<td align="center"><b>98.5</b></td>
 </tr>
 
 </table>
 
-
+<br>
 <b>CALVIN (ABC→D)</b>
 
 <table>
 <tr>
 <th align="left">Method</th>
-<th align="left">Params</th>
-<th align="left">1</th>
-<th align="left">2</th>
-<th align="left">3</th>
-<th align="left">4</th>
-<th align="left">5</th>
-<th align="left">Avg</th>
+<th align="center">Params</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+<th align="center">Avg</th>
 </tr>
 
 <tr>
-<td>X-VLA</td>
-<td>0.9B</td>
-<td>97.1</td>
-<td>92.6</td>
-<td>88.5</td>
-<td>84.4</td>
-<td>78.8</td>
-<td>4.43</td>
+<td align="left">X-VLA</td>
+<td align="center">0.9B</td>
+<td align="center">97.1</td>
+<td align="center">92.6</td>
+<td align="center">88.5</td>
+<td align="center">84.4</td>
+<td align="center">78.8</td>
+<td align="center">4.43</td>
 </tr>
 
 <tr>
-<td>iSTAR (w/o sup.)</td>
-<td>1B</td>
-<td><b><span style="color:#d62728;">97.3</span></b></td>
-<td><b><span style="color:#d62728;">93.8</span></b></td>
-<td><b><span style="color:#d62728;">90.6</span></b></td>
-<td><b><span style="color:#d62728;">87.9</span></b></td>
-<td><b><span style="color:#d62728;">80.3</span></b></td>
-<td><b><span style="color:#d62728;">4.50</span></b></td>
+<td align="left">iSTAR (w/o sup.)</td>
+<td align="center">1B</td>
+<td align="center"><b>97.3</b></td>
+<td align="center"><b>93.8</b></td>
+<td align="center"><b>90.6</b></td>
+<td align="center"><b>87.9</b></td>
+<td align="center"><b>80.3</b></td>
+<td align="center"><b>4.50</b></td>
 </tr>
 
 </table>
