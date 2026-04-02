@@ -338,8 +338,3 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
   </tbody>
 </table>
 
-      <td align="center">134.5 Hz</td>
-    </tr>
-  </tbody>
-</table>
-
