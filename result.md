@@ -226,3 +226,99 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 </table>
 
 </div>
+
+
+---
+<table>
+  <caption><b>Table R3. Efficiency and Performance Comparison (Ours vs. OpenVLA-OFT).</b></caption>
+  <thead>
+    <tr>
+      <th align="left">Item</th>
+      <th align="center">OpenVLA-OFT</th>
+      <th align="center">Ours (8B)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Total params</strong></td>
+      <td align="center">7B</td>
+      <td align="center">8B</td>
+    </tr>
+    <tr>
+      <td><strong>Trainable params</strong></td>
+      <td align="center">279M</td>
+      <td align="left">
+        <strong>107M</strong><br>
+        <small>
+          • Attribute gating: 17M<br>
+          • Dynamic positional encoding: 17M<br>
+          • Order gating & fusion: 17M<br>
+          • Implicit relational reasoning + LoRA (r64): 22M<br>
+          • Subtask Prompt Projector: 34M
+        </small>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Per-step training time</strong></td>
+      <td align="center">~3s</td>
+      <td align="center">~4s</td>
+    </tr>
+    <tr>
+      <td><strong>Inference latency</strong></td>
+      <td align="center">0.0729s</td>
+      <td align="center">0.1021s</td>
+    </tr>
+    <tr>
+      <td><strong>Inference throughput</strong></td>
+      <td align="center">109.7 Hz</td>
+      <td align="center">68.6 Hz</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <caption><b>Table R4. Efficiency and Performance Comparison (Ours vs. X-VLA).</b></caption>
+  <thead>
+    <tr>
+      <th align="left">Item</th>
+      <th align="center">X-VLA</th>
+      <th align="center">Ours (1B)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Total params</strong></td>
+      <td align="center">0.9B</td>
+      <td align="center">1B</td>
+    </tr>
+    <tr>
+      <td><strong>Trainable params</strong></td>
+      <td align="center">0.9B (Full FT)</td>
+      <td align="left">
+        <strong>32M</strong><br>
+        <small>
+          • Attribute gating: 1M<br>
+          • Dynamic positional encoding: 1M<br>
+          • Order gating & fusion: 1M<br>
+          • Implicit relational reasoning + LoRA (r64): 4M<br>
+          • Subtask Prompt Projector: 25M
+        </small>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Per-step training time</strong></td>
+      <td align="center">~1.5s</td>
+      <td align="center">~1.7s</td>
+    </tr>
+    <tr>
+      <td><strong>Inference latency</strong></td>
+      <td align="center">0.0489s</td>
+      <td align="center">0.0575s</td>
+    </tr>
+    <tr>
+      <td><strong>Inference throughput</strong></td>
+      <td align="center">167.2 Hz</td>
+      <td align="center">134.5 Hz</td>
+    </tr>
+  </tbody>
+</table>
