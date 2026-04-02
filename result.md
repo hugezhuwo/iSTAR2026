@@ -223,6 +223,17 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 <td align="center"><b>4.50</b></td>
 </tr>
 
+<tr>
+<td align="left">iSTAR (w/ sup.)</td>
+<td align="center">1B</td>
+<td align="center"><b>92.4</b></td>
+<td align="center"><b>95.3</b></td>
+<td align="center"><b>93.6</b></td>
+<td align="center"><b>89.6</b></td>
+<td align="center"><b>85.1</b></td>
+<td align="center"><b>4.56</b></td>
+</tr>
+
 </table>
 
 </div>
