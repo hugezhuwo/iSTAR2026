@@ -238,7 +238,7 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
     <tr>
       <th align="left">Item</th>
       <th align="center">OpenVLA-OFT</th>
-      <th align="center">Ours</th>
+      <th align="center">Ours (8B)</th>
     </tr>
   </thead>
   <tbody>
@@ -272,11 +272,6 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
       <td align="center">~4s</td>
     </tr>
     <tr>
-      <td><strong>Total training time</strong></td>
-      <td align="center">~125 hours</td>
-      <td align="center">~167 hours</td>
-    </tr>
-    <tr>
       <td><strong>Inference latency</strong></td>
       <td align="center">0.0729s</td>
       <td align="center">0.1021s</td>
@@ -297,7 +292,7 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
     <tr>
       <th align="left">Item</th>
       <th align="center">X-VLA</th>
-      <th align="center">Ours</th>
+      <th align="center">Ours (1B)</th>
     </tr>
   </thead>
   <tbody>
@@ -331,11 +326,6 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
       <td align="center">~1.7s</td>
     </tr>
     <tr>
-      <td><strong>Total training time</strong></td>
-      <td align="center">~62.5 hours</td>
-      <td align="center">~70.8 hours</td>
-    </tr>
-    <tr>
       <td><strong>Inference latency</strong></td>
       <td align="center">0.0489s</td>
       <td align="center">0.0575s</td>
@@ -343,6 +333,11 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
     <tr>
       <td><strong>Inference throughput</strong></td>
       <td align="center">167.2 Hz</td>
+      <td align="center">134.5 Hz</td>
+    </tr>
+  </tbody>
+</table>
+
       <td align="center">134.5 Hz</td>
     </tr>
   </tbody>
