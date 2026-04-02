@@ -215,23 +215,23 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 <tr>
 <td align="left">iSTAR (w/o sup.)</td>
 <td align="center">1B</td>
-<td align="center"><b>97.3</b></td>
-<td align="center"><b>93.8</b></td>
-<td align="center"><b>90.6</b></td>
-<td align="center"><b>87.9</b></td>
-<td align="center"><b>80.3</b></td>
-<td align="center"><b>4.50</b></td>
+<td align="center"><i>97.3</i></td>
+<td align="center"><i>93.8</i></td>
+<td align="center"><i>90.6</i></td>
+<td align="center"><i>87.9</i></td>
+<td align="center"><i>80.3</i></td>
+<td align="center"><i>4.50</i></td>
 </tr>
 
 <tr>
 <td align="left">iSTAR (w/ sup.)</td>
 <td align="center">1B</td>
-<td align="center"><b>92.4</b></td>
+<td align="center"><b>97.9</b></td>
 <td align="center"><b>95.3</b></td>
 <td align="center"><b>93.6</b></td>
 <td align="center"><b>89.6</b></td>
-<td align="center"><b>85.1</b></td>
-<td align="center"><b>4.56</b></td>
+<td align="center"><b>82.1</b></td>
+<td align="center"><b>4.59</b></td>
 </tr>
 
 </table>
