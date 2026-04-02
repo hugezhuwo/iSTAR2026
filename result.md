@@ -238,7 +238,7 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
     <tr>
       <th align="left">Item</th>
       <th align="center">OpenVLA-OFT</th>
-      <th align="center">Ours (8B)</th>
+      <th align="center">Ours</th>
     </tr>
   </thead>
   <tbody>
@@ -297,7 +297,7 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
     <tr>
       <th align="left">Item</th>
       <th align="center">X-VLA</th>
-      <th align="center">Ours (1B)</th>
+      <th align="center">Ours</th>
     </tr>
   </thead>
   <tbody>
