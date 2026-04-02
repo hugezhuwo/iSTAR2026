@@ -229,6 +229,9 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
 
 
 ---
+
+
+
 <table>
   <caption><b>Table R3. Efficiency and Performance Comparison (Ours vs. OpenVLA-OFT).</b></caption>
   <thead>
@@ -259,9 +262,19 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
       </td>
     </tr>
     <tr>
+      <td><strong>Training steps</strong></td>
+      <td align="center">50K-150K</td>
+      <td align="center">10K-20K</td>
+    </tr>
+    <tr>
       <td><strong>Per-step training time</strong></td>
       <td align="center">~3s</td>
       <td align="center">~4s</td>
+    </tr>
+    <tr>
+      <td><strong>Total training time</strong></td>
+      <td align="center">~125 hours</td>
+      <td align="center">~167 hours</td>
     </tr>
     <tr>
       <td><strong>Inference latency</strong></td>
@@ -275,6 +288,8 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
     </tr>
   </tbody>
 </table>
+
+
 
 <table>
   <caption><b>Table R4. Efficiency and Performance Comparison (Ours vs. X-VLA).</b></caption>
@@ -306,9 +321,19 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
       </td>
     </tr>
     <tr>
+      <td><strong>Training steps</strong></td>
+      <td align="center">~100K–200K (full fine-tuning, following official setup)</td>
+      <td align="center">15K</td>
+    </tr>
+    <tr>
       <td><strong>Per-step training time</strong></td>
       <td align="center">~1.5s</td>
       <td align="center">~1.7s</td>
+    </tr>
+    <tr>
+      <td><strong>Total training time</strong></td>
+      <td align="center">~62.5 hours</td>
+      <td align="center">~70.8 hours</td>
     </tr>
     <tr>
       <td><strong>Inference latency</strong></td>
@@ -322,3 +347,4 @@ Best results are <b>bold</b>, second-best are <i>italic</i>.<br>
     </tr>
   </tbody>
 </table>
+
